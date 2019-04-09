@@ -19,3 +19,8 @@ VOLUME /var/www/html/data/attachment/dzz
 # 赋予权限，如果把目录使用-v映射到镜像外面，那么镜像启动后还需要重新授权一次被挂载目录的权限
 RUN chown -R www-data:www-data /var/www/html/config /var/www/html/data
 ```
+
+## 安装onlyoffice
+
+`docker run --name onlyoffice -itd -p 9011:80 dzzoffice/onlyoffice`
+dzz中的onlyoffice配置路径:`http://[可访问的外部ip]:9011/web-apps/apps/api/documents/api.js`

@@ -40,4 +40,4 @@ dzzoffice支持多种office文档预览的配置，这里以使用onlyoffice为�
 启动onlyoffice服务  
 `docker run --name onlyoffice -itd -p 9011:80 dzzoffice/onlyoffice`  
 
-dzz中在应用商店按住onlyoffce，然后配置serverUrl:`http://[可访问的外部ip]:9011/web-apps/apps/api/documents/api.js`  
+dzz中在应用商店安装onlyoffce，然后配置serverUrl:`http://[可访问的外部ip]:9011/web-apps/apps/api/documents/api.js`  

@@ -30,7 +30,7 @@ RUN chown -R www-data:www-data /var/www/html/config /var/www/html/data
 
 ## 启动dzzoffice
 
-`docker run --name dzzoffice --link mysql:mysql -d -p 8080:80 -v /workspacec/dzz/dzz_data/:/var/www/html/data/attachment/dzz dzzoffice`
+`docker run --name dzzoffice --link mysql:mysql -d -p 8080:80 -v /workspacec/dzz/dzz_data/:/var/www/html/data/attachment/dzz itrizon/dzzoffice`
 
 ## 安装onlyoffice
 

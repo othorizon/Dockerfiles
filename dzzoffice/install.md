@@ -2,7 +2,8 @@
 
 参考：[Docker环境中部署DzzOffice 1.2.5.2](https://www.cnblogs.com/jytx/p/5443181.html)
 
-使用 [dzzoffice/Dockerfile](/dzzoffice/Dockerfile) 或者自己构建镜像
+使用 `docker pull itrizon/dzzoffice`  
+或者自己构建镜像
 
 ```dockerfile
 FROM php:5.6-apache

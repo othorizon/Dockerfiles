@@ -8,6 +8,6 @@ LABEL dockerfile_author="https://github.com/othorizon"
 VOLUME [ "/data/downloads" ]
 
 WORKDIR /data
-RUN wget ${RELEASE_URL} && tar -xf music-get_1.7.0_linux_x86_64.tar.gz -C .
+RUN wget ${RELEASE_URL} && tar -xf music-get_1.7.0_linux_x86_64.tar.gz -C . && echo success
 
 ENTRYPOINT [ "sh" ]
